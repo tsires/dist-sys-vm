@@ -25,7 +25,7 @@ pip install pymongo
 
 # get and install zmq
 cd ~
-wget http://downloads.zeromq.org/zeromq-3.2.2.tar.gz
+wget http://download.zeromq.org/zeromq-3.2.2.tar.gz
 tar zxvf zeromq-3.2.2.tar.gz
 cd zeromq-3.2.2
 ./configure
