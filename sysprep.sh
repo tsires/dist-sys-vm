@@ -5,7 +5,7 @@
 # packages
 PACKAGES='python-dev python3-dev vim dvtm libtool autoconf automake '
 PACKAGES+='mongodb-10gen zookeeper msgpack-python python-pip '
-PACKAGES+='uuid-dev '
+PACKAGES+='uuid-dev git '
 
 # add repo info for mongodb
 apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
