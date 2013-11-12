@@ -4,7 +4,7 @@
 
 # packages
 PACKAGES='python-dev python3-dev vim dvtm libtool autoconf automake '
-PACKAGES+='mongodb-10gen zookeeper msgpack-python python-pip '
+PACKAGES+='mongodb-10gen zookeeper msgpack-python python-pip python3-pip'
 PACKAGES+='uuid-dev git '
 
 # add repo info for mongodb
@@ -22,6 +22,7 @@ apt-get install $PACKAGES\
 
 # install pymongo
 pip install pymongo
+pip3 install pymongo
 
 # get and install zmq
 cd ~
@@ -33,3 +34,4 @@ make && make install
 
 # install python binding for zmq
 pip install pyzmq
+pip3 install pyzmq
