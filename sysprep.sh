@@ -43,3 +43,7 @@ $SUDO pip3 install pyzmq
 # install python library for zookeeper
 $SUDO pip install kazoo
 $SUDO pip3 install kazoo
+
+# install python library for fuse
+$SUDO pip install 'git+https://github.com/tsires/fusepy.git'
+$SUDO pip3 install 'git+https://github.com/tsires/fusepy.git'
